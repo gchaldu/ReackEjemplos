@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 export const ApiWP = () => {
-    const url = `https://asociacion.bancariamdp.org.ar/wp-json/wp/v2/posts?_embed`;
+    const url = `https://nombre-sitio/wp-json/wp/v2/posts?_embed`;
     const [articulos, setArticulos] = useState([]);
 
     const fechtApi = async () => {
